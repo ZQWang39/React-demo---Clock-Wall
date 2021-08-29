@@ -1,5 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .App {
   text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 1rem;
+}
+.App .clock {
+  width: 12rem;
+  height: 14rem;
+}
+.App .clock__city {
+  font-size: 1.1rem;
+  height: 15%;
+  margin-bottom: -0.4rem;
+}
+.App .clock__date {
+  height: 15%;
+  font-size: 1rem;
+  padding: 0.2rem;
+  background-color: #df4006;
+  color: white;
+}
+.App .clock__time__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70%;
+  font-size: 1.2rem;
+  background-color: orangered;
+  color: white;
+  height: 10rem;
+}
+.App .clock__time__container .clock__time {
+  padding: 1.5rem 2.5rem;
+}
+.App .clock__time__container .clock__time span {
+  padding: 0.5rem;
+  background-color: #df4006;
+  margin: auto 0.3rem;
 }
 
 .App-logo {
@@ -12,7 +56,6 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -36,3 +79,5 @@
     transform: rotate(360deg);
   }
 }
+
+/*# sourceMappingURL=App.css.map */
